@@ -15,6 +15,7 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatListModule } from '@angular/material/list';
 import { MatDividerModule } from '@angular/material/divider';
 import { MatTabsModule } from '@angular/material/tabs';
+import {MatCardModule} from '@angular/material/card';
 
 @NgModule({
   declarations: [
@@ -35,6 +36,7 @@ import { MatTabsModule } from '@angular/material/tabs';
     MatDividerModule,
     HttpClientModule,
     MatTabsModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]

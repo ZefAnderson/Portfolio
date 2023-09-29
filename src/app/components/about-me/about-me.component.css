@@ -1,4 +1,37 @@
-p {
+.about-me-content {
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
+}
+
+.about-me-card {
+    display: flex;
+    width: 300px;
+    margin: 25px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+p {
+    padding-top: 1em;
+    font-size: medium;
+}
+
+img {
+    width: 300px;
+    height: 200px;
+    object-fit: contain;
+    align-self: center;
+}
+
+ul {
+    font-size: medium;
+    font-weight: bold;
+    padding-left: 10px;
+    list-style-type: none;
+}
+
+li {
+    font-size: small;
+    font-weight: 400;
 }
