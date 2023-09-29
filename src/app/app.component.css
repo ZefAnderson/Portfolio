@@ -1,0 +1,39 @@
+.top-nav-toolbar {
+  background-image: url('/assets/images/throneworld.png');
+  background-size: cover;
+  background-position: center;
+}
+
+.top-nav-header {
+  padding-left: 2%;
+  font-size: xx-large;
+  color: white;
+}
+
+.top-nav-spacer {
+  flex: 1 1 auto;
+}
+
+.top-nav-icon {
+  color: white;
+}
+
+.page-select-row{
+  background-color: rgb(245, 245, 245);
+}
+
+.active {
+  background-color: rgb(235, 235, 235);
+}
+
+mat-nav-list {
+    display: flex;
+}
+
+mat-nav-list[_ngcontent-ng-c1103504889] {
+    width: 100%;
+}
+
+mat-list-item {
+    text-align: center;
+}
