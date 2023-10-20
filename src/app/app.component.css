@@ -1,7 +1,16 @@
+.master-container {
+  margin-top: 256px;
+  height: 100vh;
+  overflow: auto;
+}
+
 .top-nav-toolbar {
   background-image: url('/assets/images/throneworld.png');
   background-size: cover;
   background-position: center;
+  position: fixed;
+  top: 0;
+  z-index: 69;
 }
 
 .top-nav-header {
@@ -18,22 +27,22 @@
   color: white;
 }
 
-.page-select-row{
-  background-color:rgb(237,222,223);
+.link-toolbar {
+  position: fixed;
+  top: 192px;
+  z-index: 69;
 }
 
 .active {
   background-color: rgb(235, 235, 235);
 }
 
+mat-toolbar-row {
+  justify-content: center;
+}
+
 mat-nav-list {
-    display: flex;
-}
-
-mat-nav-list[_ngcontent-ng-c1103504889] {
-    width: 100%;
-}
-
-mat-list-item {
-    text-align: center;
+  display: flex;
+  width: 100%;
+  text-align: center;
 }
