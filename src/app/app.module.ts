@@ -4,11 +4,14 @@ import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AboutMeComponent } from './components/about-me/about-me.component';
 import { SearchComponent } from './components/search/search.component';
 import { PortfolioComponent } from './components/portfolio/portfolio.component';
 import { SidenavComponent } from './components/portfolio/sidenav/sidenav.component';
+import { AppViewerComponent } from './components/portfolio/app-viewer/app-viewer.component';
+import { TopNavComponent } from './components/top-nav/top-nav.component';
+import { LinkNavComponent } from './components/link-nav/link-nav.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatToolbarModule } from '@angular/material/toolbar';
 import { MatIconModule, MatIconRegistry } from '@angular/material/icon';
 import { MatButtonModule } from '@angular/material/button';
@@ -17,7 +20,7 @@ import { MatListModule } from '@angular/material/list';
 import { MatDividerModule } from '@angular/material/divider';
 import { MatTabsModule } from '@angular/material/tabs';
 import { MatCardModule } from '@angular/material/card';
-import { AppViewerComponent } from './components/portfolio/app-viewer/app-viewer.component';
+import { ReactJsComponent } from './components/sidenav/react-js/react-js.component';
 
 @NgModule({
   declarations: [
@@ -27,6 +30,9 @@ import { AppViewerComponent } from './components/portfolio/app-viewer/app-viewer
     PortfolioComponent,
     SidenavComponent,
     AppViewerComponent,
+    TopNavComponent,
+    LinkNavComponent,
+    ReactJsComponent,
   ],
   imports: [
     BrowserModule,

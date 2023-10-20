@@ -1,0 +1,22 @@
+.top-nav-toolbar {
+    background-image: url('/assets/images/throneworld.png');
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+    top: 0;
+    z-index: 69;
+}
+  
+.top-nav-header {
+    padding-left: 2%;
+    font-size: xx-large;
+    color: white;
+}
+  
+.top-nav-spacer {
+    flex: 1 1 auto;
+}
+  
+.top-nav-icon {
+    color: white;
+}  

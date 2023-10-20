@@ -1,0 +1,20 @@
+.link-toolbar {
+    position: fixed;
+    top: 192px;
+    z-index: 69;
+  }
+  
+  .active {
+    background-color: rgb(235, 235, 235);
+  }
+  
+  mat-toolbar-row {
+    justify-content: center;
+  }
+  
+  mat-nav-list {
+    display: flex;
+    width: 100%;
+    text-align: center;
+  }
+  

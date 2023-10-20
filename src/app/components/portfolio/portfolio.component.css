@@ -1,6 +1,13 @@
-.portfolioPage {
+.content-container {
     display: flex;
-    flex-direction: row;
-    height: 100vh;
-    overflow: auto;
+}
+
+.sidenav-container {
+    width: 250px;
+    overflow-y: auto;
+}
+
+.router-container {
+    flex-grow: 1;
+    overflow-y: auto;
 }

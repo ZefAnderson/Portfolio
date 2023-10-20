@@ -1,41 +1,6 @@
-<div class="master-container">
-  <mat-toolbar class="top-nav-toolbar">
-    <mat-toolbar-row></mat-toolbar-row>
-      <mat-toolbar-row>
-        <header class="top-nav-header">Zef Anderson | Portfolio</header>
-        <span class="top-nav-spacer"></span>
-        <section>
-          <button mat-icon-button aria-label="Icon-button with linkedIn icon" (click)="goToLinkedIn()">
-            <mat-icon class="top-nav-icon" svgIcon="linkedin"></mat-icon>
-          </button>
-          <button mat-icon-button aria-label="Icon-button with github icon" (click)="goToGitHub()">
-            <mat-icon class="top-nav-icon" svgIcon="github"></mat-icon>
-          </button>
-          <button mat-icon-button aria-label="Icon-button with email icon" (click)="sendEmail()">
-            <mat-icon class="top-nav-icon" svgIcon="mail"></mat-icon>
-          </button>
-        </section>
-      </mat-toolbar-row>
-    <mat-toolbar-row></mat-toolbar-row>
-  </mat-toolbar>
-  
-  <mat-toolbar class="link-toolbar">
-    <mat-toolbar-row>
-      <mat-nav-list>
-        <mat-list-item routerLink="/about" [routerLinkActive]="['active']">
-          About Me
-        </mat-list-item>
-        <mat-list-item routerLink="/portfolio" [routerLinkActive]="['active']">
-          Portfolio
-        </mat-list-item>
-        <mat-list-item routerLink="/search" [routerLinkActive]="['active']">
-          Search
-        </mat-list-item>
-      </mat-nav-list>
-    </mat-toolbar-row>
-  </mat-toolbar>
+<app-top-nav></app-top-nav>
+<app-link-nav></app-link-nav>
     
-  <div [@routeAnimations]="prepareRoute(myOutlet)">
+<div [@routeAnimations]="prepareRoute(myOutlet)">
     <router-outlet #myOutlet="outlet"></router-outlet>
-  </div>
 </div>

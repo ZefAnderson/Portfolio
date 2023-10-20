@@ -56,7 +56,6 @@ function swipeLeft() {
   ];
 }
 
-
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -73,23 +72,9 @@ function swipeLeft() {
 export class AppComponent {
   title = 'portfolio';
 
-  goToLinkedIn() {
-    const url = 'http://www.linkedin.com/in/zef-anderson-0998bab6';
-    window.open(url, '_blank');
-  }
-
-  goToGitHub() {
-    const url = 'http://github.com/ZefAnderson';
-    window.open(url, '_blank');
-  }
-
-  sendEmail() {
-    const email = 'bcdfezz@gmail.com';
-    const mailtoLink = `mailto:${email}`;
-    window.open(mailtoLink);
-  }
-
   prepareRoute(outlet: RouterOutlet) {
     return outlet && outlet.activatedRouteData && outlet.activatedRouteData['animation'];
   }
+
+
 }
