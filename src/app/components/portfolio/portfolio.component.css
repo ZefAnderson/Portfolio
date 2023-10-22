@@ -1,13 +1,14 @@
 .content-container {
     display: flex;
+    overflow: hidden;
 }
 
 .sidenav-container {
-    width: 250px;
+    display: flex;
+    width: 15%;
     overflow-y: auto;
 }
 
 .router-container {
-    flex-grow: 1;
-    overflow-y: auto;
+    width: 85%;
 }

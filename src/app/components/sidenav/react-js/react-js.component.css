@@ -1,7 +1,35 @@
 .react-container {
     position: relative;
-    top: 256px;
     display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    overflow-y: auto;
+    height: 100%;
+    margin-top: 5%;
+}
+
+mat-card {
+    width: 40%;
+    height: auto;
+    align-self: center;
+    padding: 20px;
+    box-shadow: rgb(204, 219, 232) 3px 3px 3px 3px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+
+img {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+mat-card-content {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-    padding-top: 200px;
+    align-items: center;
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px;
+    height: 100px;
+    font-size: 1.5em;
+    line-height: 1.25; 
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
