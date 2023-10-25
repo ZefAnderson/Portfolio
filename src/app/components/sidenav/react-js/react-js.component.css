@@ -1,11 +1,21 @@
 .react-container {
     position: relative;
     display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    flex-direction: column;
     overflow-y: auto;
     height: 100%;
-    margin-top: 5%;
+    margin-top: 256px;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+h1 {
+    text-align: center;
+    margin: 20px;
 }
 
 mat-card {

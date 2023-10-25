@@ -5,7 +5,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AboutMeComponent } from './components/about-me/about-me.component';
-import { SearchComponent } from './components/search/search.component';
+import { SourcesComponent } from './components/sources/sources.component';
 import { PortfolioComponent } from './components/portfolio/portfolio.component';
 import { SidenavComponent } from './components/portfolio/sidenav/sidenav.component';
 import { AppViewerComponent } from './components/portfolio/app-viewer/app-viewer.component';
@@ -21,18 +21,20 @@ import { MatDividerModule } from '@angular/material/divider';
 import { MatTabsModule } from '@angular/material/tabs';
 import { MatCardModule } from '@angular/material/card';
 import { ReactJsComponent } from './components/sidenav/react-js/react-js.component';
+import { AngularComponent } from './components/sidenav/angular/angular.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     AboutMeComponent,
-    SearchComponent,
+    SourcesComponent,
     PortfolioComponent,
     SidenavComponent,
     AppViewerComponent,
     TopNavComponent,
     LinkNavComponent,
     ReactJsComponent,
+    AngularComponent,
   ],
   imports: [
     BrowserModule,

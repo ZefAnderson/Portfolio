@@ -62,9 +62,9 @@ function swipeLeft() {
   styleUrls: ['./app.component.css'],
   animations: [
     trigger('routeAnimations', [
-      transition('Search => *', swipeRight()),
+      transition('Sources => *', swipeRight()),
       transition('About => *', swipeLeft()),
-      transition('Portfolio => Search', swipeLeft()),
+      transition('Portfolio => Sources', swipeLeft()),
       transition('Portfolio => About', swipeRight()),
     ])
   ]

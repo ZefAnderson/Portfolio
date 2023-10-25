@@ -2,9 +2,10 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AboutMeComponent } from './components/about-me/about-me.component';
 import { PortfolioComponent } from './components/portfolio/portfolio.component';
-import { SearchComponent } from './components/search/search.component';
+import { SourcesComponent } from './components/sources/sources.component';
 import { AppViewerComponent } from './components/portfolio/app-viewer/app-viewer.component';
 import { ReactJsComponent } from './components/sidenav/react-js/react-js.component';
+import { AngularComponent } from './components/sidenav/angular/angular.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/about', pathMatch: 'full' },
@@ -20,16 +21,20 @@ const routes: Routes = [
       },
       {
         path: 'viewer',
-        component: AppViewerComponent,
+        component: AppViewerComponent
       },
       {
         path: 'react',
         component: ReactJsComponent
+      },
+      {
+        path: 'angular',
+        component: AngularComponent
       }
     ],
     data: { animation: 'Portfolio' } 
   },
-  {path: "search", component: SearchComponent, data: { animation: 'Search' } },
+  {path: "sources", component: SourcesComponent, data: { animation: 'Sources' } },
 
 ];
 
