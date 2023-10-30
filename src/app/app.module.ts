@@ -22,6 +22,7 @@ import { MatTabsModule } from '@angular/material/tabs';
 import { MatCardModule } from '@angular/material/card';
 import { ReactJsComponent } from './components/sidenav/react-js/react-js.component';
 import { AngularComponent } from './components/sidenav/angular/angular.component';
+import { FirebaseComponent } from './components/sidenav/firebase/firebase.component';
 
 @NgModule({
   declarations: [
@@ -35,6 +36,7 @@ import { AngularComponent } from './components/sidenav/angular/angular.component
     LinkNavComponent,
     ReactJsComponent,
     AngularComponent,
+    FirebaseComponent,
   ],
   imports: [
     BrowserModule,

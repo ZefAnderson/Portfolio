@@ -6,6 +6,7 @@ import { SourcesComponent } from './components/sources/sources.component';
 import { AppViewerComponent } from './components/portfolio/app-viewer/app-viewer.component';
 import { ReactJsComponent } from './components/sidenav/react-js/react-js.component';
 import { AngularComponent } from './components/sidenav/angular/angular.component';
+import { FirebaseComponent } from './components/sidenav/firebase/firebase.component';
 
 const routes: Routes = [
   { path: '', redirectTo: '/about', pathMatch: 'full' },
@@ -30,6 +31,10 @@ const routes: Routes = [
       {
         path: 'angular',
         component: AngularComponent
+      },
+      {
+        path: 'firebase',
+        component: FirebaseComponent
       }
     ],
     data: { animation: 'Portfolio' } 
