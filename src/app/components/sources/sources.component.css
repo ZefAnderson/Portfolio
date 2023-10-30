@@ -7,3 +7,9 @@
     text-align: center;
     padding-top: 10px;
 }
+
+mat-divider {
+    width: 20%;
+    align-self: center;
+    margin: 15px;
+}
