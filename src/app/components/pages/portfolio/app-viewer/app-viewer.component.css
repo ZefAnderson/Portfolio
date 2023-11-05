@@ -4,15 +4,9 @@
     height: 100vh;
     overflow: hidden;
   }
-  
-  .title {
-    display: flex;
-    justify-content: center;
-    margin-top: 25%;
-  }
-  
+    
   router-outlet {
-    width: 100%;
+  width: 100%;
     height: 100%;
   }
 }

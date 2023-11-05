@@ -35,7 +35,7 @@ const routes: Routes = [
       }
     ],
   },
-  {path: 'sources;', component: SourcesComponent, data: { animation: 'Sources' } },
+  {path: 'sources', component: SourcesComponent, data: { animation: 'Sources' } },
 
 ];
 
