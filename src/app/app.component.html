@@ -1,6 +1,7 @@
-<app-top-nav></app-top-nav>
-<app-link-nav></app-link-nav>
-    
-<div [@routeAnimations]="prepareRoute(myOutlet)">
-    <router-outlet #myOutlet="outlet"></router-outlet>
+<div class="page">
+  <div class="sticky">
+    <app-top-nav></app-top-nav>
+    <app-link-nav></app-link-nav>
+  </div>
+  <app-pages></app-pages>      
 </div>

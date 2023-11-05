@@ -4,11 +4,11 @@ import { HttpClientModule } from '@angular/common/http';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { AboutMeComponent } from './components/about-me/about-me.component';
-import { SourcesComponent } from './components/sources/sources.component';
-import { PortfolioComponent } from './components/portfolio/portfolio.component';
-import { SidenavComponent } from './components/portfolio/sidenav/sidenav.component';
-import { AppViewerComponent } from './components/portfolio/app-viewer/app-viewer.component';
+import { AboutMeComponent } from './components/pages/about-me/about-me.component';
+import { SourcesComponent } from './components/pages/sources/sources.component';
+import { PortfolioComponent } from './components/pages/portfolio/portfolio.component';
+import { SidenavComponent } from './components/pages/portfolio/sidenav/sidenav.component';
+import { AppViewerComponent } from './components/pages/portfolio/app-viewer/app-viewer.component';
 import { TopNavComponent } from './components/top-nav/top-nav.component';
 import { LinkNavComponent } from './components/link-nav/link-nav.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
@@ -20,9 +20,10 @@ import { MatListModule } from '@angular/material/list';
 import { MatDividerModule } from '@angular/material/divider';
 import { MatTabsModule } from '@angular/material/tabs';
 import { MatCardModule } from '@angular/material/card';
-import { ReactJsComponent } from './components/sidenav/react-js/react-js.component';
-import { AngularComponent } from './components/sidenav/angular/angular.component';
-import { FirebaseComponent } from './components/sidenav/firebase/firebase.component';
+import { ReactJsComponent } from './components/pages/portfolio/sidenav/react-js/react-js.component';
+import { AngularComponent } from './components/pages/portfolio/sidenav/angular/angular.component';
+import { FirebaseComponent } from './components/pages/portfolio/sidenav/firebase/firebase.component';
+import { PagesComponent } from './components/pages/pages.component';
 
 @NgModule({
   declarations: [
@@ -37,6 +38,7 @@ import { FirebaseComponent } from './components/sidenav/firebase/firebase.compon
     ReactJsComponent,
     AngularComponent,
     FirebaseComponent,
+    PagesComponent,
   ],
   imports: [
     BrowserModule,

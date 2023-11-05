@@ -3,8 +3,6 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    position: relative;
-    top: 256px;
     height: 100%;
     overflow: auto;
     padding-bottom: 30px;

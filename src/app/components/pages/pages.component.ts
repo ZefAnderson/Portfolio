@@ -1,14 +1,12 @@
-import { trigger, transition, style, animateChild, group, animate, query } from '@angular/animations';
+import { trigger, transition } from '@angular/animations';
 import { Component } from '@angular/core';
+import { swipeRight, swipeLeft } from 'src/app/animations';
 import { RouterOutlet } from '@angular/router';
-import { swipeLeft } from './animations';
-import { swipeRight } from './animations';
-
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css'],
+  selector: 'app-pages',
+  templateUrl: './pages.component.html',
+  styleUrls: ['./pages.component.css'],
   animations: [
     trigger('routeAnimations', [
       transition('Sources => *', swipeRight()),
@@ -18,12 +16,10 @@ import { swipeRight } from './animations';
     ])
   ]
 })
-export class AppComponent {
-  title = 'portfolio';
+export class PagesComponent {
 
   prepareRoute(outlet: RouterOutlet) {
     return outlet && outlet.activatedRouteData && outlet.activatedRouteData['animation'];
   }
-
 
 }

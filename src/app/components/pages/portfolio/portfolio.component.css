@@ -11,6 +11,8 @@
     border-right: 1px solid;
 }
 
-.router-container {
+.app-viewer-container {
     width: 85%;
+    position: fixed;
+    left: 15%
 }

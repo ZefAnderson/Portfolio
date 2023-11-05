@@ -4,7 +4,6 @@
     flex-direction: column;
     overflow-y: auto;
     height: 100%;
-    margin-top: 256px;
 }
 
 .card-container {
@@ -42,4 +41,4 @@ mat-card-content {
     font-size: 1.5em;
     line-height: 1.25; 
     box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
-}
+}  
