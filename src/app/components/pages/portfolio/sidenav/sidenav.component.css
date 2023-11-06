@@ -1,23 +1,65 @@
-mat-nav-list {
-    overflow-y: auto;
-    padding: 0%;
+@media screen and (max-width: 650px) {
+  .monitor {
+    display:none;
+  }
+
+  .project-toolbar {
+    margin-top: 5px;
+  }
+
+  mat-toolbar-row {
+    justify-content: center;
+  }
+    
+  mat-nav-list {
+    display: flex;
+    text-align: center;
+  }
+
+  .mat-mdc-list-base {
+    --mdc-list-list-item-label-text-size: 15px;
+  }
+
+  mat-list-item {
+    font-size: 1em;
+    width: 132px;
+  }
+
+  mat-divider {
+    margin: 2px;
+  }
+  
+  .active {
+    background-color: rgb(228, 228, 228)
+  }  
 }
 
-mat-card {
+@media screen and (min-width: 651px) {
+  .mobile {
+    display: none;
+  }
+
+  mat-nav-list {
+    overflow-y: auto;
+    padding: 0%;
+  }
+    
+  mat-card {
     margin: 25px 5px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
     padding: 0%;
-}
-
-mat-card-content {
+  }
+    
+  mat-card-content {
     padding: 0%;
-}
-
-.mat-mdc-card-content:last-child {
+  }
+    
+  .mat-mdc-card-content:last-child {
     padding: 0%;
-}
-
-.active {
+  }
+    
+  .active {
     background-color: rgb(228, 228, 228)
   }
+}
   

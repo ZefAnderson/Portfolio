@@ -1,12 +1,5 @@
-@media screen and (min-width: 851px) {
-  .viewer-container {
-    width: 100%;
-    height: 100vh;
-    overflow: hidden;
-  }
-    
-  router-outlet {
+.viewer-container {
   width: 100%;
-    height: 100%;
-  }
+  height: 100vh;
 }
+    

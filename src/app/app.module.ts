@@ -24,6 +24,7 @@ import { ReactJsComponent } from './components/pages/portfolio/sidenav/react-js/
 import { AngularComponent } from './components/pages/portfolio/sidenav/angular/angular.component';
 import { FirebaseComponent } from './components/pages/portfolio/sidenav/firebase/firebase.component';
 import { PagesComponent } from './components/pages/pages.component';
+import { MatCheckboxModule } from '@angular/material/checkbox';
 
 @NgModule({
   declarations: [
@@ -52,7 +53,8 @@ import { PagesComponent } from './components/pages/pages.component';
     MatDividerModule,
     HttpClientModule,
     MatTabsModule,
-    MatCardModule
+    MatCardModule,
+    MatCheckboxModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

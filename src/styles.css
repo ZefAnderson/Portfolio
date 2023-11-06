@@ -2,13 +2,13 @@
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 650px) {
   body {
     max-width: 850px;
   }
 }
 
-@media screen and (min-width: 851px) {
+@media screen and (min-width: 651px) {
 	body {
 		min-width: 1115px;
 	}
