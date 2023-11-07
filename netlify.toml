@@ -1,4 +1,4 @@
 [build]
-  base = "./dist"
+  base = "."
   command = "ng build --configuration=production"
   publish = "./dist/portfolio"
