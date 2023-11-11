@@ -67,11 +67,11 @@
     }
     
     mat-card {
-        width: 40%;
-        height: auto;
-        align-self: center;
-        padding: 20px;
-        box-shadow: rgb(204, 219, 232) 3px 3px 3px 3px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+      display: flex;
+      justify-content: space-between;
+      width: 40%;
+      padding: 20px;
+      box-shadow: rgb(204, 219, 232) 3px 3px 3px 3px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
     }
     
     img {

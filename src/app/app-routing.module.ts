@@ -7,6 +7,7 @@ import { FirebaseComponent } from "./components/pages/portfolio/sidenav/firebase
 import { ReactJsComponent } from "./components/pages/portfolio/sidenav/react-js/react-js.component";
 import { SourcesComponent } from "./components/pages/sources/sources.component";
 import { LocationStrategy, HashLocationStrategy } from "@angular/common";
+import { NodeComponent } from "./components/pages/portfolio/sidenav/node/node.component";
 
 const routes: Routes = [
   {path: '', redirectTo: '/about', pathMatch: 'full'},
@@ -32,6 +33,10 @@ const routes: Routes = [
       {
         path: 'firebase',
         component: FirebaseComponent
+      },
+      {
+        path: 'node',
+        component: NodeComponent
       }
     ],
   },

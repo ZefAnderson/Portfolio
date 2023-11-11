@@ -25,6 +25,7 @@ import { AngularComponent } from './components/pages/portfolio/sidenav/angular/a
 import { FirebaseComponent } from './components/pages/portfolio/sidenav/firebase/firebase.component';
 import { PagesComponent } from './components/pages/pages.component';
 import { MatCheckboxModule } from '@angular/material/checkbox';
+import { NodeComponent } from './components/pages/portfolio/sidenav/node/node.component';
 
 @NgModule({
   declarations: [
@@ -40,6 +41,7 @@ import { MatCheckboxModule } from '@angular/material/checkbox';
     AngularComponent,
     FirebaseComponent,
     PagesComponent,
+    NodeComponent,
   ],
   imports: [
     BrowserModule,
